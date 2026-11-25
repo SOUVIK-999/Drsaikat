@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[#0A0A0A] text-[#F5F0E8]">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr Saikat's Multi-Speciality Dental Clinic &amp; Aesthetic Centre | Bhupati Nagar, Madha Khali</title>
+  <meta name="description" content="Dr Saikat's Multi-Speciality Dental Clinic & Aesthetic Centre in Bhupati Nagar, Madha Khali. Rated 5.0 stars across 13 patient reviews for thorough dental consultations, patient-friendly service, and modern equipment." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { obsidian: "#0A0A0A", charcoal: "#121212", ivory: "#F5F0E8", gold: { DEFAULT: "#C9A96E", light: "#DFC594", dark: "#9F804A" } },
+          fontFamily: { serif: ['"Cormorant Garamond"', '"Playfair Display"', "Georgia", "serif"], sans: ['"Manrope"', "system-ui", "sans-serif"] },
+          letterSpacing: { luxury: "0.22em" }
+        }
+      }
+    };
+  </script>
+  <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"Dentist","name":"Dr Saikat's Multi-Speciality Dental Clinic","image":"https://files.catbox.moe/zldcmq.webp","telephone":"+91 78721 36316","address":{"@type":"PostalAddress","streetAddress":"Bhupati Nagar, Madha Khali","addressCountry":"IN"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"13"}}
+  </script>
+  <style>
+    html,body{background-color:#0a0a0a;color:#f5f0e8;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+    ::selection{background-color:#c9a96e;color:#0a0a0a}
+    ::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:#0a0a0a}::-webkit-scrollbar-thumb{background:rgba(201,169,110,.35);border-radius:9999px}::-webkit-scrollbar-thumb:hover{background:#c9a96e}
+    .fade-swap{transition:opacity .35s cubic-bezier(.22,1,.36,1),transform .35s cubic-bezier(.22,1,.36,1)}
+    .fade-swap-out{opacity:0;transform:translateY(8px)}
+  </style>
+</head>
+<body class="font-sans bg-obsidian text-ivory">
+
+  <!-- HEADER -->
+  <header id="site-header" class="fixed inset-x-0 top-0 z-50 transition-all duration-500 bg-gradient-to-b from-obsidian/85 via-obsidian/40 to-transparent py-4 sm:py-5">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-5 sm:px-6 lg:px-10">
+      <a href="#hero" data-scroll="#hero" class="group flex items-center gap-3 text-left focus:outline-none">
+        <div class="flex h-10 w-10 shrink-0 items-center justify-center border border-gold/50 text-gold transition-colors duration-300 group-hover:border-gold group-hover:bg-gold group-hover:text-obsidian">
+          <span class="font-serif text-lg tracking-wider">DS</span>
+        </div>
+        <div>
+          <p class="font-serif text-lg tracking-wide text-ivory leading-none">Dr Saikat&rsquo;s</p>
+          <p class="mt-1 text-[9px] sm:text-[10px] uppercase tracking-[0.14em] sm:tracking-[0.16em] text-gold/90">
+            <span class="sm:hidden">Dental &amp; Aesthetic Centre</span>
+            <span class="hidden sm:inline">Multi-Speciality Dental &amp; Aesthetic</span>
+          </p>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-7">
+        <a href="#treatments" data-scroll="#treatments" class="py-1 text-xs uppercase tracking-[0.18em] text-ivory/80 hover:text-gold">Treatments</a>
+        <a href="#dentist" data-scroll="#dentist" class="py-1 text-xs uppercase tracking-[0.18em] text-ivory/80 hover:text-gold">Dr. Saikat</a>
+        <a href="#studio" data-scroll="#studio" class="py-1 text-xs uppercase tracking-[0.18em] text-ivory/80 hover:text-gold">The Clinic</a>
+        <a href="#testimonials" data-scroll="#testimonials" class="py-1 text-xs uppercase tracking-[0.18em] text-ivory/80 hover:text-gold">Reviews</a>
+        <a href="#contact" data-scroll="#contact" class="py-1 text-xs uppercase tracking-[0.18em] text-ivory/80 hover:text-gold">Contact</a>
+      </nav>
+
+      <div class="hidden lg:flex items-center gap-3">
+        <button type="button" data-open-doctor-portal class="inline-flex items-center gap-2 border border-ivory/25 bg-obsidian/50 px-4 py-2.5 text-xs uppercase tracking-[0.15em] text-ivory/90 transition-all hover:border-gold hover:text-gold">
+          <i data-lucide="shield" class="h-3.5 w-3.5 text-gold"></i>
+          <span class="doctor-portal-label">Doctor Login</span>
+        </button>
+        <a href="#appointment" data-scroll="#appointment" class="inline-flex items-center gap-2 border border-gold bg-gold px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.16em] text-obsidian transition-all hover:bg-transparent hover:text-gold">
+          <i data-lucide="calendar" class="h-3.5 w-3.5"></i>
+          <span>Book Visit</span>
+        </a>
+      </div>
+
+      <button id="mobile-menu-open" type="button" aria-label="Open Menu" class="flex h-10 w-10 shrink-0 items-center justify-center border border-gold/30 text-ivory lg:hidden">
+        <i data-lucide="menu" class="h-5 w-5"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE DRAWER -->
+  <div id="mobile-drawer" class="fixed inset-0 z-50 hidden flex-col justify-between bg-obsidian px-6 py-8 lg:hidden opacity-0 transition-opacity duration-300">
+    <div class="flex items-center justify-between border-b border-gold/20 pb-5">
+      <div>
+        <p class="font-serif text-xl text-ivory">Dr Saikat&rsquo;s Dental Clinic</p>
+        <p class="text-[10px] uppercase tracking-[0.18em] text-gold">Multi-Speciality &amp; Aesthetic Centre</p>
+      </div>
+      <button id="mobile-menu-close" type="button" aria-label="Close Menu" class="flex h-10 w-10 items-center justify-center border border-gold/30 text-ivory">
+        <i data-lucide="x" class="h-5 w-5"></i>
+      </button>
+    </div>
+    <nav class="flex flex-col gap-5 py-8">
+      <a href="#treatments" data-scroll="#treatments" class="font-serif text-3xl text-ivory hover:text-gold">Treatments</a>
+      <a href="#dentist" data-scroll="#dentist" class="font-serif text-3xl text-ivory hover:text-gold">Dr. Saikat</a>
+      <a href="#studio" data-scroll="#studio" class="font-serif text-3xl text-ivory hover:text-gold">The Clinic</a>
+      <a href="#testimonials" data-scroll="#testimonials" class="font-serif text-3xl text-ivory hover:text-gold">Patient Reviews</a>
+      <a href="#contact" data-scroll="#contact" class="font-serif text-3xl text-ivory hover:text-gold">Contact</a>
+    </nav>
+    <div class="space-y-3 border-t border-gold/20 pt-6">
+      <button type="button" data-open-doctor-portal class="flex w-full items-center justify-center gap-2 border border-gold/50 py-3.5 text-xs uppercase tracking-[0.18em] text-gold">
+        <i data-lucide="shield" class="h-4 w-4"></i>
+        <span class="doctor-portal-label">Doctor Login</span>
+      </button>
+      <a href="#appointment" data-scroll="#appointment" class="flex w-full items-center justify-center gap-2 bg-gold py-4 text-xs font-semibold uppercase tracking-[0.18em] text-obsidian">
+        <i data-lucide="calendar" class="h-4 w-4"></i>
+        <span>Book Dental Consultation</span>
+      </a>
+      <a href="tel:+917872136316" class="flex w-full items-center justify-center gap-2 border border-ivory/20 py-3.5 text-xs uppercase tracking-[0.16em] text-ivory">
+        <i data-lucide="phone" class="h-3.5 w-3.5 text-gold"></i>
+        <span>+91 78721 36316</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- DOCTOR PORTAL MODAL (LOGIN + APPOINTMENTS LIST) -->
+  <div id="doctor-portal-modal" data-lenis-prevent class="fixed inset-0 z-[60] hidden items-center justify-center bg-obsidian/95 p-4 sm:p-6 backdrop-blur-md overflow-y-auto">
+    <div class="relative my-auto w-full max-w-5xl border border-gold/35 bg-charcoal shadow-2xl">
+      <div class="flex items-center justify-between border-b border-gold/20 bg-obsidian px-6 py-4 sm:px-8">
+        <div class="flex items-center gap-3">
+          <div class="flex h-9 w-9 items-center justify-center border border-gold/50 text-gold">
+            <i data-lucide="stethoscope" class="h-4 w-4"></i>
+          </div>
+          <div>
+            <p class="font-serif text-xl text-ivory leading-none">Doctor Portal</p>
+            <p class="mt-1 text-[10px] uppercase tracking-[0.18em] text-gold">Dr Saikat&rsquo;s Dental Clinic</p>
+          </div>
+        </div>
+        <button id="close-doctor-portal" type="button" aria-label="Close Doctor Portal" class="flex h-9 w-9 items-center justify-center border border-gold/30 text-ivory hover:border-gold hover:text-gold">
+          <i data-lucide="x" class="h-4 w-4"></i>
+        </button>
+      </div>
+
+      <!-- VIEW 1: DOCTOR LOGIN -->
+      <div id="doctor-login-view" class="p-6 sm:p-10">
+        <div class="mx-auto max-w-md border border-ivory/10 bg-obsidian p-6 sm:p-8">
+          <p class="text-[11px] uppercase tracking-luxury text-gold">Authorized Access Only</p>
+          <h2 class="mt-2 font-serif text-3xl text-ivory">Doctor Sign In</h2>
+          <p class="mt-2 text-xs font-light leading-relaxed text-ivory/65">Enter your clinic email and password to view patient appointments.</p>
+          <div id="doctor-login-error" class="mt-5 hidden border border-gold/50 bg-gold/10 px-4 py-3 text-xs text-gold"></div>
+          <form id="doctor-login-form" class="mt-6 space-y-5">
+            <div>
+              <label for="doctor-email" class="mb-2 block text-[11px] uppercase tracking-[0.16em] text-ivory/75">Doctor Email *</label>
+              <input id="doctor-email" type="email" required autocomplete="email" placeholder="doctor@clinic.com" class="w-full border border-ivory/15 bg-charcoal px-4 py-3 text-sm text-ivory placeholder:text-ivory/30 focus:border-gold focus:outline-none" />
+            </div>
+            <div>
+              <label for="doctor-password" class="mb-2 block text-[11px] uppercase tracking-[0.16em] text-ivory/75">Password *</label>
+              <div class="relative">
+                <input id="doctor-password" type="password" required autocomplete="current-password" placeholder="••••••••" class="w-full border border-ivory/15 bg-charcoal px-4 py-3 pr-11 text-sm text-ivory placeholder:text-ivory/30 focus:border-gold focus:outline-none" />
+                <button id="toggle-doctor-password" type="button" aria-label="Toggle Password" class="absolute inset-y-0 right-0 flex items-center px-3.5 text-ivory/55 hover:text-gold">
+                  <i data-lucide="eye" class="h-4 w-4"></i>
+                </button>
+              </div>
+            </div>
+            <button id="doctor-login-submit" type="submit" class="inline-flex w-full items-center justify-center gap-2 border border-gold bg-gold px-6 py-3.5 text-xs font-semibold uppercase tracking-[0.18em] text-obsidian transition-all hover:bg-transparent hover:text-gold disabled:opacity-60">
+              <i data-lucide="log-in" class="h-4 w-4"></i>
+              <span id="doctor-login-btn-text">Sign In to View Bookings</span>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- VIEW 2: APPOINTMENTS DASHBOARD -->
+      <div id="doctor-dashboard-view" class="hidden flex-col p-5 sm:p-8">
+        <div class="flex flex-col justify-between gap-4 border-b border-ivory/10 pb-5 sm:flex-row sm:items-center">
+          <div>
+            <p class="text-[11px] uppercase tracking-[0.16em] text-gold">Signed in as <span id="doctor-logged-email" class="text-ivory"></span></p>
+            <h2 class="mt-1 font-serif text-3xl text-ivory">Patient Appointments (<span id="appointments-count">0</span>)</h2>
+          </div>
+          <div class="flex flex-wrap items-center gap-2.5">
+            <button id="refresh-appointments-btn" type="button" class="inline-flex items-center gap-2 border border-gold/40 px-4 py-2 text-xs uppercase tracking-[0.14em] text-gold hover:bg-gold hover:text-obsidian">
+              <i data-lucide="refresh-cw" class="h-3.5 w-3.5"></i>
+              <span>Refresh</span>
+            </button>
+            <button id="doctor-logout-btn" type="button" class="inline-flex items-center gap-2 border border-ivory/25 px-4 py-2 text-xs uppercase tracking-[0.14em] text-ivory/80 hover:border-gold hover:text-gold">
+              <i data-lucide="log-out" class="h-3.5 w-3.5"></i>
+              <span>Sign Out</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="mt-5 grid grid-cols-1 gap-3 sm:grid-cols-12">
+          <div class="sm:col-span-8">
+            <input id="appointment-search" type="search" placeholder="Search by patient name, phone, or booking ref..." class="w-full border border-ivory/15 bg-obsidian px-4 py-2.5 text-sm text-ivory placeholder:text-ivory/35 focus:border-gold focus:outline-none" />
+          </div>
+          <div class="sm:col-span-4">
+            <select id="appointment-status-filter" class="w-full border border-ivory/15 bg-obsidian px-4 py-2.5 text-sm text-ivory focus:border-gold focus:outline-none">
+              <option value="all">All Statuses</option>
+              <option value="pending">Pending</option>
+              <option value="confirmed">Confirmed</option>
+              <option value="completed">Completed</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="dashboard-feedback" class="mt-4 hidden border border-gold/40 bg-gold/10 px-4 py-3 text-xs text-gold"></div>
+        <div id="appointments-list-container" data-lenis-prevent class="mt-5 max-h-[55vh] overflow-y-auto border border-ivory/10 bg-obsidian"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- 1. HERO -->
+    <section id="hero" class="relative flex min-h-screen items-end overflow-hidden bg-obsidian pt-36 sm:pt-40 pb-14 lg:pb-24">
+      <div class="absolute inset-0 z-0 overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1704579924216-31ef96f7e008?fm=jpg&q=85&w=2400&auto=format&fit=crop" alt="Smiling woman showcasing healthy bright teeth" class="hero-image-scale h-full w-full object-cover object-[center_20%] sm:object-top opacity-80" />
+        <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/55 to-obsidian/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-obsidian/90 via-obsidian/45 to-transparent"></div>
+      </div>
+      <div class="relative z-10 mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-10">
+        <div class="max-w-2xl lg:max-w-3xl">
+          <div class="hero-stagger mb-5 inline-flex items-center gap-2 border border-gold/40 bg-obsidian/70 px-3.5 py-1.5 backdrop-blur-md">
+            <i data-lucide="sparkles" class="h-3.5 w-3.5 shrink-0 text-gold"></i>
+            <span class="text-[10px] sm:text-[11px] uppercase tracking-[0.14em] sm:tracking-[0.18em] text-gold leading-snug">Dr Saikat&rsquo;s Dental &amp; Aesthetic Centre</span>
+          </div>
+          <h1 class="hero-stagger font-serif text-5xl leading-[1.03] tracking-tight text-ivory sm:text-6xl md:text-7xl lg:text-[5.25rem]">The Art of a <span class="italic font-normal text-gold">Confident</span> Smile.</h1>
+          <p class="hero-stagger mt-5 max-w-xl text-sm sm:text-base md:text-lg leading-relaxed text-ivory/85 font-light">Trusted Multi-Speciality Dental Clinic &amp; Aesthetic Centre in <strong class="font-medium text-ivory">Bhupati Nagar, Madha Khali</strong>. Led by <strong class="font-medium text-ivory">Dr. Saikat</strong>, combining thorough dental consultations, patient-friendly service, and modern equipment.</p>
+          <div class="hero-stagger mt-8 sm:mt-10 flex flex-wrap items-center gap-3.5 sm:gap-4">
+            <a href="#appointment" data-scroll="#appointment" class="inline-flex items-center gap-2.5 border border-gold bg-gold px-6 sm:px-7 py-3.5 sm:py-4 text-xs font-semibold uppercase tracking-[0.18em] text-obsidian transition-all hover:bg-transparent hover:text-gold">
+              <i data-lucide="calendar" class="h-4 w-4"></i><span>Book Appointment</span>
+            </a>
+            <a href="#treatments" data-scroll="#treatments" class="group inline-flex items-center gap-2.5 border border-ivory/35 bg-obsidian/55 px-6 sm:px-7 py-3.5 sm:py-4 text-xs uppercase tracking-[0.18em] text-ivory backdrop-blur-sm transition-all hover:border-gold hover:text-gold">
+              <span>Explore Treatments</span><i data-lucide="arrow-down-right" class="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:translate-y-0.5"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-stagger mt-12 sm:mt-14 flex flex-col gap-4 border-t border-ivory/20 pt-5 text-[11px] sm:text-xs text-ivory/75 sm:flex-row sm:items-center sm:justify-between">
+          <div class="flex flex-wrap items-center gap-x-6 gap-y-2 uppercase tracking-[0.15em]">
+            <span>Dental Consultation</span><span class="hidden sm:inline text-gold/50">&bull;</span><span>Patient-Friendly Service</span><span class="hidden sm:inline text-gold/50">&bull;</span><span>Modern Equipment</span><span class="hidden sm:inline text-gold/50">&bull;</span><span class="text-gold">5.0 ★ (13 Google Reviews)</span>
+          </div>
+          <a href="#statistics" data-scroll="#statistics" class="inline-flex items-center gap-2 uppercase tracking-[0.2em] text-gold hover:opacity-80"><span>Scroll to Discover</span><span class="inline-block h-px w-8 bg-gold"></span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. STATISTICS -->
+    <section id="statistics" class="border-y border-gold/20 bg-charcoal py-16 lg:py-20">
+      <div class="mx-auto max-w-7xl px-6 lg:px-10">
+        <div id="stats-grid" class="grid grid-cols-1 gap-px bg-gold/15 sm:grid-cols-2 lg:grid-cols-4 border border-gold/15"></div>
+      </div>
+    </section>
+
+    <!-- 3. TREATMENTS -->
+    <section id="treatments" class="bg-obsidian py-24 lg:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-10">
+        <div class="reveal-block flex flex-col justify-between gap-6 border-b border-ivory/10 pb-10 lg:flex-row lg:items-end">
+          <div>
+            <p class="text-xs uppercase tracking-luxury text-gold">Multi-Speciality &amp; Aesthetic Centre</p>
+            <h2 class="mt-3 font-serif text-4xl tracking-tight text-ivory sm:text-5xl lg:text-6xl">Curated Dental <span class="italic font-normal text-gold">Treatments</span></h2>
+          </div>
+          <p class="max-w-md text-sm font-light leading-relaxed text-ivory/70">Every visit begins with a thorough dental consultation using modern equipment and patient-friendly protocols tailored to your smile goals.</p>
+        </div>
+        <div class="mt-14 grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-12">
+          <div id="treatment-list" class="reveal-block lg:col-span-6 flex flex-col divide-y divide-ivory/10 border-y border-ivory/10"></div>
+          <div class="reveal-block lg:col-span-6">
+            <div id="treatment-preview-card" class="fade-swap flex h-full flex-col justify-between border border-gold/25 bg-charcoal">
+              <div class="relative aspect-[16/10] w-full overflow-hidden">
+                <img id="treatment-img" src="https://images.unsplash.com/photo-1657313611566-1616bd1c1fbc?fm=jpg&q=80&w=1800&auto=format&fit=crop" alt="Smile Design" class="h-full w-full object-cover transition-transform duration-700 hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-charcoal via-transparent to-transparent"></div>
+                <span id="treatment-badge" class="absolute bottom-4 left-6 border border-gold/40 bg-obsidian/80 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-gold backdrop-blur-md">01 &middot; Comprehensive Evaluation &amp; Planning</span>
+              </div>
+              <div class="flex flex-1 flex-col justify-between p-7 sm:p-9">
+                <div>
+                  <h3 id="treatment-title" class="font-serif text-3xl text-ivory">Dental Consultation &amp; Smile Design</h3>
+                  <p id="treatment-desc" class="mt-4 text-sm font-light leading-relaxed text-ivory/75 sm:text-base">Unhurried one-on-one dental consultation with Dr. Saikat paired with Aesthetic Centre smile planning—addressing both functional oral health and natural facial harmony.</p>
+                </div>
+                <div class="mt-8 space-y-6 border-t border-ivory/10 pt-6">
+                  <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                    <div class="flex items-center gap-3 text-xs text-ivory/80"><i data-lucide="clock" class="h-4 w-4 text-gold shrink-0"></i><span id="treatment-duration">Patient-Friendly Pace</span></div>
+                    <div class="flex items-center gap-3 text-xs text-ivory/80"><i data-lucide="shield-check" class="h-4 w-4 text-gold shrink-0"></i><span id="treatment-highlight">Modern Diagnostic Equipment</span></div>
+                  </div>
+                  <button id="treatment-book-btn" type="button" class="inline-flex w-full items-center justify-center gap-2 border border-gold bg-gold px-6 py-3.5 text-xs font-semibold uppercase tracking-[0.18em] text-obsidian transition-all hover:bg-transparent hover:text-gold">
+                    <span id="treatment-book-label">Book Dental Consultation</span><i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. MEET OUR DENTIST -->
+    <section id="dentist" class="border-y border-ivory/10 bg-charcoal py-24 lg:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-10">
+        <div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-12 lg:gap-16">
+          <div class="lg:col-span-5">
+            <div class="relative mx-auto max-w-md lg:max-w-none">
+              <div class="pointer-events-none absolute -top-4 -left-4 h-24 w-24 border-t border-l border-gold/60"></div>
+              <div class="pointer-events-none absolute -bottom-4 -right-4 h-24 w-24 border-b border-r border-gold/60"></div>
+              <div class="dentist-portrait-frame relative aspect-[4/5] w-full overflow-hidden border border-gold/30 bg-obsidian">
+                <img src="https://files.catbox.moe/zldcmq.webp" alt="Dr. Saikat" class="h-full w-full object-cover object-top transition-transform duration-700 hover:scale-[1.03]" />
+                <div class="absolute inset-0 bg-gradient-to-t from-obsidian/80 via-transparent to-transparent"></div>
+                <div class="absolute bottom-5 left-5 right-5 border border-gold/25 bg-obsidian/75 p-4 backdrop-blur-md">
+                  <p class="font-serif text-xl text-ivory">Dr. Saikat</p>
+                  <p class="mt-0.5 text-[11px] uppercase tracking-[0.16em] text-gold">Multi-Speciality Dental &amp; Aesthetic Care</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-7">
+            <p class="dentist-copy text-xs uppercase tracking-luxury text-gold">Meet Our Dentist</p>
+            <h2 class="dentist-copy mt-3 font-serif text-4xl tracking-tight text-ivory sm:text-5xl lg:text-6xl">Dr. Saikat</h2>
+            <div class="dentist-copy mt-4 inline-flex flex-wrap items-center gap-3 border border-gold/30 bg-obsidian/60 px-4 py-2 text-xs uppercase tracking-[0.14em] text-ivory/90">
+              <i data-lucide="award" class="h-4 w-4 text-gold"></i><span>Dr Saikat&rsquo;s Multi-Speciality Dental Clinic &amp; Aesthetic Centre</span>
+            </div>
+            <p class="dentist-copy mt-3 text-xs uppercase tracking-[0.16em] text-gold/85">Bhupati Nagar, Madha Khali &middot; Rated 5.0 ★ (13 Google Reviews)</p>
+            <p class="dentist-copy mt-6 text-base font-light leading-relaxed text-ivory/80 sm:text-lg">Known by patients for calm, attentive dental consultations and a warm, patient-friendly approach, Dr. Saikat leads our Multi-Speciality Dental Clinic and Aesthetic Centre in Bhupati Nagar, Madha Khali—combining modern equipment with clear communication at every step.</p>
+            <blockquote class="dentist-copy mt-8 border-l-2 border-gold pl-5 font-serif text-xl italic leading-relaxed text-ivory/90 sm:text-2xl">&ldquo;Great dental care starts with listening patiently, explaining every option clearly, and delivering gentle treatment with modern precision.&rdquo;</blockquote>
+            <ul class="dentist-copy mt-8 space-y-3 border-t border-ivory/10 pt-7">
+              <li class="flex items-start gap-3 text-sm font-light text-ivory/75"><i data-lucide="check-circle-2" class="mt-0.5 h-4 w-4 shrink-0 text-gold"></i><span>Comprehensive Dental Consultations with transparent, unhurried guidance</span></li>
+              <li class="flex items-start gap-3 text-sm font-light text-ivory/75"><i data-lucide="check-circle-2" class="mt-0.5 h-4 w-4 shrink-0 text-gold"></i><span>Patient-Friendly Service trusted with a 5.0-star rating across 13 reviews</span></li>
+              <li class="flex items-start gap-3 text-sm font-light text-ivory/75"><i data-lucide="check-circle-2" class="mt-0.5 h-4 w-4 shrink-0 text-gold"></i><span>Equipped with Modern Dental Technology &amp; Dedicated Aesthetic Centre care</span></li>
+            </ul>
+            <div class="dentist-copy mt-10">
+              <a href="#appointment" data-scroll="#appointment" class="inline-flex items-center gap-3 border border-gold bg-transparent px-7 py-4 text-xs font-semibold uppercase tracking-[0.18em] text-gold transition-all hover:bg-gold hover:text-obsidian"><i data-lucide="calendar" class="h-4 w-4"></i><span>Consult With Dr. Saikat</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. CLINIC GALLERY -->
+    <section id="studio" class="bg-obsidian py-24 lg:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-10">
+        <div class="reveal-block flex flex-col justify-between gap-6 border-b border-ivory/10 pb-10 lg:flex-row lg:items-end">
+          <div>
+            <p class="text-xs uppercase tracking-luxury text-gold">Modern Equipment &amp; Calm Care</p>
+            <h2 class="mt-3 font-serif text-4xl tracking-tight text-ivory sm:text-5xl lg:text-6xl">The Clinic <span class="italic font-normal text-gold">Experience</span></h2>
+          </div>
+          <div class="flex flex-col items-start gap-4 lg:items-end">
+            <p class="max-w-md text-sm font-light leading-relaxed text-ivory/70 lg:text-right">Designed for patient comfort in Bhupati Nagar, Madha Khali—featuring modern dental equipment, strict hygiene protocols, and a soothing Aesthetic Centre environment.</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Dr+Saikat%27s+Multi-Speciality+Dental+Clinic+Bhupati+Nagar+Madha+Khali" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 border border-gold/40 px-4 py-2 text-xs uppercase tracking-[0.16em] text-gold hover:bg-gold hover:text-obsidian">
+              <i data-lucide="map-pin" class="h-3.5 w-3.5"></i><span>Locate Clinic on Google Maps</span><i data-lucide="arrow-up-right" class="h-3.5 w-3.5"></i>
+            </a>
+          </div>
+        </div>
+        <div id="gallery-grid" class="mt-14 grid grid-cols-1 gap-5 md:grid-cols-6"></div>
+      </div>
+    </section>
+
+    <!-- GALLERY LIGHTBOX -->
+    <div id="gallery-lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-obsidian/95 p-6 backdrop-blur-md">
+      <div class="relative w-full max-w-4xl border border-gold/30 bg-charcoal">
+        <button id="lightbox-close" type="button" aria-label="Close Preview" class="absolute top-4 right-4 z-10 flex h-10 w-10 items-center justify-center border border-gold/40 bg-obsidian/80 text-ivory hover:text-gold"><i data-lucide="x" class="h-5 w-5"></i></button>
+        <div class="relative aspect-[16/10] w-full bg-obsidian"><img id="lightbox-img" src="" alt="" class="h-full w-full object-cover" /></div>
+        <div class="p-6 sm:p-8">
+          <p id="lightbox-category" class="text-[11px] uppercase tracking-luxury text-gold"></p>
+          <h3 id="lightbox-title" class="mt-1 font-serif text-2xl text-ivory sm:text-3xl"></h3>
+          <p id="lightbox-caption" class="mt-2 text-sm font-light text-ivory/75"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. TESTIMONIALS -->
+    <section id="testimonials" class="border-y border-ivory/10 bg-charcoal py-24 lg:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-10">
+        <div class="flex flex-col justify-between gap-6 border-b border-ivory/10 pb-10 sm:flex-row sm:items-end">
+          <div>
+            <p class="text-xs uppercase tracking-luxury text-gold">5.0 ★ Rated &middot; 13 Google Reviews</p>
+            <h2 class="mt-3 font-serif text-4xl tracking-tight text-ivory sm:text-5xl">Patient <span class="italic font-normal text-gold">Experiences</span></h2>
+          </div>
+          <div class="flex items-center gap-3">
+            <button id="testimonial-prev" type="button" aria-label="Previous" class="flex h-11 w-11 items-center justify-center border border-gold/35 text-ivory hover:bg-gold hover:text-obsidian"><i data-lucide="chevron-left" class="h-5 w-5"></i></button>
+            <button id="testimonial-next" type="button" aria-label="Next" class="flex h-11 w-11 items-center justify-center border border-gold/35 text-ivory hover:bg-gold hover:text-obsidian"><i data-lucide="chevron-right" class="h-5 w-5"></i></button>
+          </div>
+        </div>
+        <div class="mt-14 grid grid-cols-1 gap-8 lg:grid-cols-12">
+          <div class="lg:col-span-8">
+            <div class="relative min-h-[300px] border border-gold/25 bg-obsidian p-8 sm:p-12">
+              <i data-lucide="quote" class="h-9 w-9 text-gold/35"></i>
+              <div id="testimonial-slide" class="fade-swap mt-6">
+                <div class="flex items-center gap-1 text-gold">
+                  <i data-lucide="star" class="h-4 w-4 fill-gold"></i><i data-lucide="star" class="h-4 w-4 fill-gold"></i><i data-lucide="star" class="h-4 w-4 fill-gold"></i><i data-lucide="star" class="h-4 w-4 fill-gold"></i><i data-lucide="star" class="h-4 w-4 fill-gold"></i>
+                </div>
+                <p id="testimonial-quote" class="mt-6 font-serif text-2xl leading-relaxed text-ivory sm:text-3xl"></p>
+                <div class="mt-8 flex flex-wrap items-center justify-between gap-4 border-t border-ivory/10 pt-6">
+                  <div><p id="testimonial-name" class="font-serif text-xl text-ivory"></p><p id="testimonial-role" class="text-xs uppercase tracking-[0.15em] text-ivory/55"></p></div>
+                  <div class="text-left sm:text-right"><p id="testimonial-treatment" class="text-xs uppercase tracking-[0.16em] text-gold"></p><p id="testimonial-date" class="mt-0.5 text-xs text-ivory/45"></p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col justify-between gap-3 lg:col-span-4">
+            <div id="testimonial-selectors" class="space-y-3"></div>
+            <a href="https://www.google.com/maps/search/?api=1&query=Dr+Saikat%27s+Multi-Speciality+Dental+Clinic+Bhupati+Nagar+Madha+Khali" target="_blank" rel="noopener noreferrer" class="mt-2 block border border-gold/30 bg-obsidian/70 p-4 text-center text-xs uppercase tracking-[0.18em] text-gold hover:bg-gold hover:text-obsidian">Google Rating: 5.0 ★ (13 Reviews)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. APPOINTMENT BOOKING -->
+    <section id="appointment" class="bg-obsidian py-24 lg:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-10">
+        <div class="grid grid-cols-1 gap-12 border border-gold/25 bg-charcoal p-8 sm:p-12 lg:grid-cols-12 lg:p-16">
+          <div class="flex flex-col justify-between lg:col-span-5">
+            <div>
+              <p class="text-xs uppercase tracking-luxury text-gold">Schedule Your Visit</p>
+              <h2 class="mt-3 font-serif text-4xl tracking-tight text-ivory sm:text-5xl">Book a <span class="italic font-normal text-gold">Consultation</span></h2>
+              <p class="mt-5 text-sm font-light leading-relaxed text-ivory/75 sm:text-base">Visit <strong class="font-medium text-ivory">Dr Saikat&rsquo;s Multi-Speciality Dental Clinic &amp; Aesthetic Centre</strong> in Bhupati Nagar, Madha Khali for a gentle, thorough dental consultation backed by modern equipment and patient-friendly care.</p>
+              <div class="mt-8 space-y-4 border-t border-ivory/10 pt-8 text-sm text-ivory/75">
+                <div class="flex items-start gap-3"><i data-lucide="calendar-check" class="mt-0.5 h-4 w-4 shrink-0 text-gold"></i><span>Personalized dental consultation with Dr. Saikat</span></div>
+                <div class="flex items-start gap-3"><i data-lucide="phone" class="mt-0.5 h-4 w-4 shrink-0 text-gold"></i><span>Direct clinic desk: <a href="tel:+917872136316" class="text-ivory hover:text-gold">+91 78721 36316</a></span></div>
+              </div>
+            </div>
+            <div class="mt-10 border border-gold/25 bg-obsidian/70 p-6">
+              <p class="text-[11px] uppercase tracking-[0.18em] text-gold">Instant WhatsApp Booking</p>
+              <p class="mt-2 text-xs font-light text-ivory/70">Prefer WhatsApp? Send your pre-filled appointment request directly to our clinic desk (+91 78721 36316).</p>
+              <a id="whatsapp-direct-link" href="https://wa.me/917872136316" target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex w-full items-center justify-center gap-2.5 border border-gold px-5 py-3.5 text-xs font-semibold uppercase tracking-[0.16em] text-gold hover:bg-gold hover:text-obsidian">
+                <i data-lucide="message-circle" class="h-4 w-4"></i><span>Book via WhatsApp</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="lg:col-span-7">
+            <form id="appointment-form" class="space-y-5 border border-ivory/10 bg-obsidian p-7 sm:p-10">
+              <div id="form-error" class="hidden border border-gold/50 bg-gold/10 px-4 py-3 text-xs text-gold"></div>
+              <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+                <div><label for="patient-name" class="mb-2 block text-[11px] uppercase tracking-[0.16em] text-ivory/70">Full Name *</label><input id="patient-name" type="text" required placeholder="Your full name" class="w-full border border-ivory/15 bg-charcoal px-4 py-3 text-sm text-ivory placeholder:text-ivory/30 focus:border-gold focus:outline-none" /></div>
+                <div><label for="patient-phone" class="mb-2 block text-[11px] uppercase tracking-[0.16em] text-ivory/70">Phone / WhatsApp *</label><input id="patient-phone" type="tel" required placeholder="+91 XXXXX XXXXX" class="w-full border border-ivory/15 bg-charcoal px-4 py-3 text-sm text-ivory placeholder:text-ivory/30 focus:border-gold focus:outline-none" /></div>
+              </div>
+              <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+                <div><label for="patient-email" class="mb-2 block text-[11px] uppercase tracking-[0.16em] text-ivory/70">Email Address (Optional)</label><input id="patient-email" type="email" placeholder="you@domain.com" class="w-full border border-ivory/15 bg-charcoal px-4 py-3 text-sm text-ivory placeholder:text-ivory/30 focus:border-gold focus:outline-none" /></div>
+                <div>
+                  <label for="treatment-select" class="mb-2 block text-[11px] uppercase tracking-[0.16em] text-ivory/70">Service / Treatment</label>
+                  <select id="treatment-select" class="w-full border border-ivory/15 bg-charcoal px-4 py-3 text-sm text-ivory focus:border-gold focus:outline-none">
+                    <option value="Dental Consultation & Smile Design">Dental Consultation &amp; Smile Design</option>
+                    <option value="Aesthetic Centre Care">Aesthetic Centre Care</option>
+                    <option value="Dental Implants">Dental Implants</option>
+                    <option value="Root Canal Treatment">Root Canal Treatment</option>
+                    <option value="Teeth Whitening">Teeth Whitening</option>
+                    <option value="Invisible Aligners">Invisible Aligners</option>
+                  </select>
+                </div>
+              </div>
+              <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+                <div><label for="preferred-date" class="mb-2 block text-[11px] uppercase tracking-[0.16em] text-ivory/70">Preferred Date *</label><input id="preferred-date" type="date" required class="w-full border border-ivory/15 bg-charcoal px-4 py-3 text-sm text-ivory [color-scheme:dark] focus:border-gold focus:outline-none" /></div>
+                <div>
+                  <label for="preferred-slot" class="mb-2 block text-[11px] uppercase tracking-[0.16em] text-ivory/70">Preferred Time Window</label>
+                  <select id="preferred-slot" class="w-full border border-ivory/15 bg-charcoal px-4 py-3 text-sm text-ivory focus:border-gold focus:outline-none">
+                    <option value="Morning (10:00 AM – 1:00 PM)">Morning (10:00 AM – 1:00 PM)</option>
+                    <option value="Afternoon (1:00 PM – 4:30 PM)">Afternoon (1:00 PM – 4:30 PM)</option>
+                    <option value="Evening (4:30 PM – 8:00 PM)">Evening (4:30 PM – 8:00 PM)</option>
+                  </select>
+                </div>
+              </div>
+              <div><label for="clinical-notes" class="mb-2 block text-[11px] uppercase tracking-[0.16em] text-ivory/70">Consultation Notes (Optional)</label><textarea id="clinical-notes" rows="3" placeholder="Share any toothache concerns, aesthetic goals, or preferred consultation details..." class="w-full border border-ivory/15 bg-charcoal px-4 py-3 text-sm text-ivory placeholder:text-ivory/30 focus:border-gold focus:outline-none"></textarea></div>
+              <button id="submit-appointment-btn" type="submit" class="inline-flex w-full items-center justify-center gap-2.5 border border-gold bg-gold px-6 py-4 text-xs font-semibold uppercase tracking-[0.18em] text-obsidian transition-all hover:bg-transparent hover:text-gold disabled:opacity-60">
+                <i data-lucide="send" class="h-4 w-4"></i><span id="submit-btn-text">Request Appointment</span>
+              </button>
+            </form>
+
+            <div id="appointment-confirmation" class="hidden h-full flex-col justify-center border border-gold/35 bg-obsidian p-8 sm:p-10">
+              <i data-lucide="check-circle-2" class="h-10 w-10 text-gold"></i>
+              <p id="confirm-ref" class="mt-5 text-xs uppercase tracking-luxury text-gold"></p>
+              <h3 id="confirm-heading" class="mt-2 font-serif text-3xl text-ivory"></h3>
+              <p id="confirm-summary" class="mt-4 text-sm font-light leading-relaxed text-ivory/75"></p>
+              <div class="mt-8 flex flex-wrap gap-4">
+                <a id="confirm-whatsapp-btn" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-gold px-6 py-3.5 text-xs font-semibold uppercase tracking-[0.16em] text-obsidian hover:opacity-90"><i data-lucide="message-circle" class="h-4 w-4"></i><span>Send on WhatsApp (+91 78721 36316)</span></a>
+                <button id="book-another-btn" type="button" class="border border-ivory/25 px-6 py-3.5 text-xs uppercase tracking-[0.16em] text-ivory hover:border-gold hover:text-gold">Book Another Visit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="border-t border-gold/25 bg-charcoal pt-20 pb-10 text-ivory">
+    <div class="mx-auto max-w-7xl px-6 lg:px-10">
+      <div class="grid grid-cols-1 gap-12 pb-16 lg:grid-cols-12">
+        <div class="lg:col-span-4">
+          <div class="flex items-center gap-3">
+            <div class="flex h-11 w-11 items-center justify-center border border-gold/50 text-gold"><span class="font-serif text-xl">DS</span></div>
+            <div><p class="font-serif text-2xl text-ivory leading-none">Dr Saikat&rsquo;s</p><p class="mt-1 text-[10px] uppercase tracking-[0.16em] text-gold">Multi-Speciality Dental Clinic &amp; Aesthetic Centre</p></div>
+          </div>
+          <p class="mt-6 max-w-sm text-sm font-light leading-relaxed text-ivory/70">A trusted Dental Clinic &amp; Aesthetic Centre in Bhupati Nagar, Madha Khali—rated 5.0 ★ across 13 reviews for thorough consultations, patient-friendly service, and modern equipment.</p>
+          <div class="mt-7 flex items-center gap-3">
+            <a href="https://wa.me/917872136316" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="flex h-10 w-10 items-center justify-center border border-ivory/15 text-ivory/75 hover:border-gold hover:text-gold"><i data-lucide="message-circle" class="h-4 w-4"></i></a>
+            <a href="tel:+917872136316" aria-label="Call Clinic" class="flex h-10 w-10 items-center justify-center border border-ivory/15 text-ivory/75 hover:border-gold hover:text-gold"><i data-lucide="phone" class="h-4 w-4"></i></a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Dr+Saikat%27s+Multi-Speciality+Dental+Clinic+Bhupati+Nagar+Madha+Khali" target="_blank" rel="noopener noreferrer" aria-label="Google Maps" class="flex h-10 w-10 items-center justify-center border border-ivory/15 text-ivory/75 hover:border-gold hover:text-gold"><i data-lucide="map-pin" class="h-4 w-4"></i></a>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:col-span-4">
+          <div>
+            <h3 class="text-xs uppercase tracking-luxury text-gold">Contact Clinic</h3>
+            <ul class="mt-5 space-y-4 text-sm font-light text-ivory/75">
+              <li><a href="tel:+917872136316" class="flex items-center gap-3 hover:text-gold"><i data-lucide="phone" class="h-4 w-4 shrink-0 text-gold"></i><span>+91 78721 36316</span></a></li>
+              <li class="flex items-start gap-3"><i data-lucide="map-pin" class="mt-0.5 h-4 w-4 shrink-0 text-gold"></i><span>Bhupati Nagar, Madha Khali<br />India</span></li>
+              <li class="flex items-start gap-3"><i data-lucide="star" class="mt-0.5 h-4 w-4 shrink-0 text-gold"></i><span>5.0 ★ Google Rating<br />(13 Patient Reviews)</span></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-xs uppercase tracking-luxury text-gold">Clinic Pillars</h3>
+            <ul class="mt-5 space-y-3 text-sm font-light text-ivory/75">
+              <li class="border-b border-ivory/10 pb-2.5"><div class="flex items-center gap-2 text-xs uppercase tracking-wider text-ivory"><i data-lucide="check" class="h-3.5 w-3.5 text-gold"></i><span>Dental Consultation</span></div><p class="mt-1 pl-5 text-xs text-ivory/60">Thorough diagnostic planning</p></li>
+              <li class="border-b border-ivory/10 pb-2.5"><div class="flex items-center gap-2 text-xs uppercase tracking-wider text-ivory"><i data-lucide="check" class="h-3.5 w-3.5 text-gold"></i><span>Patient-Friendly Service</span></div><p class="mt-1 pl-5 text-xs text-ivory/60">Gentle &amp; attentive care</p></li>
+              <li class="border-b border-ivory/10 pb-2.5"><div class="flex items-center gap-2 text-xs uppercase tracking-wider text-ivory"><i data-lucide="check" class="h-3.5 w-3.5 text-gold"></i><span>Modern Equipment</span></div><p class="mt-1 pl-5 text-xs text-ivory/60">Aesthetic &amp; multi-speciality</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="lg:col-span-4">
+          <h3 class="text-xs uppercase tracking-luxury text-gold">Clinic Location</h3>
+          <div class="mt-5 overflow-hidden border border-gold/25 bg-obsidian">
+            <div class="relative h-44 w-full"><iframe title="Clinic Map" src="https://www.google.com/maps?q=Bhupati+Nagar,+Madha+Khali&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="h-full w-full grayscale contrast-125 invert-[0.9] opacity-85"></iframe></div>
+            <div class="flex items-center justify-between border-t border-gold/20 p-4">
+              <span class="text-xs text-ivory/75">Bhupati Nagar, Madha Khali</span>
+              <a href="https://www.google.com/maps/search/?api=1&query=Dr+Saikat%27s+Multi-Speciality+Dental+Clinic+Bhupati+Nagar+Madha+Khali" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.15em] text-gold hover:text-gold-light"><span>Open Maps</span><i data-lucide="arrow-up-right" class="h-3.5 w-3.5"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col items-start justify-between gap-4 border-t border-ivory/10 pt-8 text-xs text-ivory/50 sm:flex-row sm:items-center">
+        <p>&copy; <span id="footer-year"></span> Dr Saikat&rsquo;s Multi-Speciality Dental Clinic &amp; Aesthetic Centre.</p>
+        <div class="flex flex-wrap gap-6 uppercase tracking-[0.14em]">
+          <a href="#treatments" data-scroll="#treatments" class="hover:text-gold">Treatments</a>
+          <a href="#dentist" data-scroll="#dentist" class="hover:text-gold">Dr. Saikat</a>
+          <a href="#appointment" data-scroll="#appointment" class="hover:text-gold">Book Visit</a>
+          <button type="button" data-open-doctor-portal class="doctor-portal-label text-gold hover:text-gold-light uppercase tracking-[0.14em]">Doctor Login</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const SUPABASE_URL = "https://lzgtpcjyofmmuwaaemhj.supabase.co";
+      const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_nGvnKiOkVOs3XESJvT3nuw_0k_oMXpX";
+      const supabaseClient = window.supabase ? window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY) : null;
+
+      function esc(v) {
+        return String(v ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+      }
+
+      const STATS = [
+        { target: "5.0", dec: 1, suf: " ★", title: "Google Rating", desc: "Perfect 5.0-star rating across verified Google patient reviews", link: "https://www.google.com/maps/search/?api=1&query=Dr+Saikat%27s+Multi-Speciality+Dental+Clinic+Bhupati+Nagar+Madha+Khali" },
+        { target: "13", dec: 0, suf: " Reviews", title: "Patient Testimonials", desc: "Praised for gentle dental consultations and attentive care" },
+        { target: "100", dec: 0, suf: "%", title: "Patient-Friendly Service", desc: "Calm, transparent guidance with comfort-first treatment plans" },
+        { text: "Modern", title: "Equipment & Aesthetics", desc: "Multi-Speciality Dental Clinic & Aesthetic Centre with modern dental technology" }
+      ];
+      document.getElementById("stats-grid").innerHTML = STATS.map((s) => `
+        <div class="stat-card flex flex-col justify-between bg-charcoal p-8 lg:p-10 hover:bg-obsidian transition-colors">
+          <div>
+            ${s.text ? `<p class="font-serif text-4xl text-gold sm:text-5xl">${s.text}</p>` : `<p class="stat-number font-serif text-4xl text-gold sm:text-5xl" data-target="${s.target}" data-decimals="${s.dec}" data-suffix="${s.suf}">0${s.suf}</p>`}
+            <h2 class="mt-4 text-xs font-semibold uppercase tracking-[0.2em] text-ivory">${s.title}</h2>
+          </div>
+          <div class="mt-4">
+            <p class="text-sm font-light text-ivory/60">${s.desc}</p>
+            ${s.link ? `<a href="${s.link}" target="_blank" rel="noopener noreferrer" class="mt-3 inline-block text-[11px] uppercase tracking-[0.16em] text-gold underline underline-offset-4">View on Google Maps</a>` : ""}
+          </div>
+        </div>`).join("");
+
+      const yearEl = document.getElementById("footer-year");
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+      const dateInput = document.getElementById("preferred-date");
+      if (dateInput) dateInput.min = new Date().toISOString().split("T")[0];
+
+      const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      let lenis = null;
+      if (!reduced && window.Lenis && window.gsap) {
+        gsap.registerPlugin(ScrollTrigger);
+        lenis = new Lenis({ duration: 1.2, easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), smoothWheel: true });
+        lenis.on("scroll", ScrollTrigger.update);
+        gsap.ticker.add((t) => lenis.raf(t * 1000));
+        gsap.ticker.lagSmoothing(0);
+      }
+
+      function scrollToTarget(sel) {
+        const el = document.querySelector(sel);
+        if (!el) return;
+        if (lenis) lenis.scrollTo(el, { offset: -72 });
+        else el.scrollIntoView({ behavior: "smooth" });
+      }
+      document.querySelectorAll("[data-scroll]").forEach((a) => {
+        a.addEventListener("click", (e) => { e.preventDefault(); closeMobileMenu(); scrollToTarget(a.getAttribute("data-scroll")); });
+      });
+
+      const header = document.getElementById("site-header");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 40) {
+          header.classList.add("bg-obsidian/90", "backdrop-blur-xl", "border-b", "border-gold/20", "py-3.5");
+          header.classList.remove("bg-gradient-to-b", "from-obsidian/85", "via-obsidian/40", "to-transparent", "py-4", "sm:py-5");
+        } else {
+          header.classList.remove("bg-obsidian/90", "backdrop-blur-xl", "border-b", "border-gold/20", "py-3.5");
+          header.classList.add("bg-gradient-to-b", "from-obsidian/85", "via-obsidian/40", "to-transparent", "py-4", "sm:py-5");
+        }
+      }, { passive: true });
+
+      const mobileDrawer = document.getElementById("mobile-drawer");
+      function openMobileMenu() { mobileDrawer.classList.remove("hidden"); mobileDrawer.classList.add("flex"); requestAnimationFrame(() => mobileDrawer.classList.remove("opacity-0")); }
+      function closeMobileMenu() { if (mobileDrawer.classList.contains("hidden")) return; mobileDrawer.classList.add("opacity-0"); setTimeout(() => { mobileDrawer.classList.add("hidden"); mobileDrawer.classList.remove("flex"); }, 300); }
+      document.getElementById("mobile-menu-open").addEventListener("click", openMobileMenu);
+      document.getElementById("mobile-menu-close").addEventListener("click", closeMobileMenu);
+
+      if (!reduced && window.gsap) {
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.timeline({ defaults: { ease: "power3.out" } })
+          .fromTo(".hero-image-scale", { scale: 1.08, opacity: 0.45 }, { scale: 1, opacity: 1, duration: 1.5 })
+          .fromTo(".hero-stagger", { y: 34, opacity: 0 }, { y: 0, opacity: 1, duration: 1, stagger: 0.13 }, "-=1.05");
+        document.querySelectorAll(".stat-number").forEach((el) => {
+          const target = parseFloat(el.dataset.target || "0"), dec = parseInt(el.dataset.decimals || "0", 10), suf = el.dataset.suffix || "", obj = { val: 0 };
+          gsap.to(obj, { val: target, duration: 1.6, ease: "power2.out", scrollTrigger: { trigger: el, start: "top 88%", once: true }, onUpdate: () => { el.textContent = `${dec > 0 ? obj.val.toFixed(dec) : Math.floor(obj.val).toLocaleString("en-IN")}${suf}`; } });
+        });
+        gsap.utils.toArray(".reveal-block").forEach((b) => gsap.fromTo(b, { y: 36, opacity: 0 }, { y: 0, opacity: 1, duration: 0.9, ease: "power3.out", scrollTrigger: { trigger: b, start: "top 82%", once: true } }));
+        gsap.fromTo(".dentist-portrait-frame", { clipPath: "inset(12% 0% 12% 0%)", opacity: 0.4 }, { clipPath: "inset(0% 0% 0% 0%)", opacity: 1, duration: 1.25, ease: "power3.out", scrollTrigger: { trigger: "#dentist", start: "top 75%", once: true } });
+        gsap.fromTo(".dentist-copy", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.9, stagger: 0.1, ease: "power3.out", scrollTrigger: { trigger: "#dentist", start: "top 75%", once: true } });
+      }
+
+      const TREATMENTS = [
+        { code: "01", title: "Dental Consultation & Smile Design", subtitle: "Comprehensive Evaluation & Aesthetic Centre", description: "Unhurried one-on-one dental consultation with Dr. Saikat paired with Aesthetic Centre smile planning—addressing both functional oral health and natural facial harmony.", duration: "Patient-Friendly Pace", highlight: "Modern Diagnostic Equipment", image: "https://images.unsplash.com/photo-1657313611566-1616bd1c1fbc?fm=jpg&q=80&w=1800&auto=format&fit=crop" },
+        { code: "02", title: "Dental Implants", subtitle: "Multi-Speciality Restorative Care", description: "Precision tooth replacement solutions planned with modern diagnostic imaging to restore chewing strength, bone support, and natural smile aesthetics.", duration: "Guided Treatment Plan", highlight: "Biocompatible Titanium Care", image: "https://images.unsplash.com/photo-1663755489920-5e09f66d011a?fm=jpg&q=80&w=1800&auto=format&fit=crop" },
+        { code: "03", title: "Root Canal Treatment", subtitle: "Gentle Pain-Managed Endodontics", description: "Patient-friendly endodontic therapy performed with modern rotary and diagnostic equipment to relieve discomfort and preserve natural teeth cleanly.", duration: "Comfort-Focused Visit", highlight: "Modern Rotary Precision", image: "https://images.unsplash.com/photo-1606811842243-af7e16970c1f?fm=jpg&q=80&w=1800&auto=format&fit=crop" },
+        { code: "04", title: "Teeth Whitening", subtitle: "Aesthetic Centre Smile Brightening", description: "Enamel-safe clinical whitening designed to gently lift deep discoloration and refresh your smile in a calm, hygienic setting.", duration: "Single Clinic Session", highlight: "Enamel-Safe Aesthetic Care", image: "https://images.unsplash.com/photo-1769559893692-c6d0623bf8e4?fm=jpg&q=80&w=1800&auto=format&fit=crop" },
+        { code: "05", title: "Invisible Aligners", subtitle: "Discreet Bite & Smile Alignment", description: "Clear, custom-fitted orthodontic aligners tailored during your dental consultation to gradually align teeth comfortably without metal brackets.", duration: "Custom Alignment Roadmap", highlight: "Clear & Removable Trays", image: "https://images.unsplash.com/photo-1684607633115-394e9a139260?fm=jpg&q=80&w=1800&auto=format&fit=crop" }
+      ];
+      let activeT = 0;
+      const tList = document.getElementById("treatment-list"), tCard = document.getElementById("treatment-preview-card"), tSelect = document.getElementById("treatment-select");
+      function renderTreatments() {
+        tList.innerHTML = TREATMENTS.map((item, i) => `
+          <button type="button" data-ti="${i}" class="group flex w-full items-center justify-between py-6 text-left transition-all ${i === activeT ? "pl-4 border-l-2 border-gold" : "hover:pl-2"}">
+            <div class="flex items-baseline gap-5">
+              <span class="font-serif text-lg ${i === activeT ? "text-gold" : "text-ivory/40 group-hover:text-gold"}">${item.code}</span>
+              <div><h3 class="font-serif text-2xl sm:text-3xl ${i === activeT ? "text-ivory" : "text-ivory/75 group-hover:text-ivory"}">${item.title}</h3><p class="mt-1 text-xs uppercase tracking-[0.16em] text-ivory/50">${item.subtitle}</p></div>
+            </div>
+            <span class="text-sm ${i === activeT ? "text-gold" : "text-ivory/35 group-hover:text-gold"}">&nearr;</span>
+          </button>`).join("");
+        tList.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => {
+          const i = parseInt(b.dataset.ti, 10);
+          if (i === activeT) return;
+          activeT = i; renderTreatments();
+          const item = TREATMENTS[i];
+          tCard.classList.add("fade-swap-out");
+          setTimeout(() => {
+            document.getElementById("treatment-img").src = item.image;
+            document.getElementById("treatment-badge").textContent = `${item.code} · ${item.subtitle}`;
+            document.getElementById("treatment-title").textContent = item.title;
+            document.getElementById("treatment-desc").textContent = item.description;
+            document.getElementById("treatment-duration").textContent = item.duration;
+            document.getElementById("treatment-highlight").textContent = item.highlight;
+            document.getElementById("treatment-book-label").textContent = `Request ${item.title}`;
+            tCard.classList.remove("fade-swap-out");
+          }, 220);
+        }));
+      }
+      document.getElementById("treatment-book-btn").addEventListener("click", () => { tSelect.value = TREATMENTS[activeT].title; updateWhatsAppLinks(); scrollToTarget("#appointment"); });
+      renderTreatments();
+
+      const GALLERY = [
+        { title: "Primary Clinical Suite", category: "Modern Equipment", caption: "Ergonomic dental chair and modern clinical instrumentation.", image: "https://images.unsplash.com/photo-1728342057953-94bfad8f0e7e?fm=jpg&q=80&w=1800&auto=format&fit=crop", span: "md:col-span-3 md:row-span-2 min-h-[380px] md:min-h-[540px]" },
+        { title: "Digital Assessment Bay", category: "Aesthetic Centre", caption: "Precision diagnostics supporting smile enhancements and restorative care.", image: "https://images.unsplash.com/photo-1704455306251-b4634215d98f?fm=jpg&q=80&w=1800&auto=format&fit=crop", span: "md:col-span-3 min-h-[260px]" },
+        { title: "Multi-Speciality Operatory", category: "Hygiene & Precision", caption: "Strict sterilization standards paired with modern dental technology.", image: "https://images.unsplash.com/photo-1642844819197-5f5f21b89ff8?fm=jpg&q=80&w=1800&auto=format&fit=crop", span: "md:col-span-3 min-h-[260px]" },
+        { title: "Dental Consultation", category: "Patient-Friendly Service", caption: "Clear, friendly discussions ensuring complete peace of mind.", image: "https://images.unsplash.com/photo-1777331903190-341a3dd0441b?fm=jpg&q=80&w=1800&auto=format&fit=crop", span: "md:col-span-3 min-h-[260px]" },
+        { title: "Comfort-First Interior", category: "Calm Atmosphere", caption: "Welcoming space designed for relaxed and stress-free dental visits.", image: "https://images.unsplash.com/photo-1616391182219-e080b4d1043a?fm=jpg&q=80&w=1800&auto=format&fit=crop", span: "md:col-span-3 min-h-[260px]" }
+      ];
+      const gGrid = document.getElementById("gallery-grid"), lb = document.getElementById("gallery-lightbox");
+      gGrid.innerHTML = GALLERY.map((g, i) => `
+        <button type="button" data-gi="${i}" class="group relative overflow-hidden border border-ivory/10 bg-charcoal text-left ${g.span} focus:outline-none">
+          <img src="${g.image}" alt="${g.title}" class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <div class="absolute inset-0 bg-gradient-to-t from-obsidian/90 via-obsidian/25 to-transparent"></div>
+          <div class="absolute inset-x-0 bottom-0 p-6"><p class="text-[10px] uppercase tracking-luxury text-gold">${g.category}</p><h3 class="mt-1 font-serif text-2xl text-ivory">${g.title}</h3><p class="mt-1.5 text-xs font-light text-ivory/70">${g.caption}</p></div>
+        </button>`).join("");
+      gGrid.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => {
+        const g = GALLERY[parseInt(b.dataset.gi, 10)];
+        document.getElementById("lightbox-img").src = g.image;
+        document.getElementById("lightbox-category").textContent = g.category;
+        document.getElementById("lightbox-title").textContent = g.title;
+        document.getElementById("lightbox-caption").textContent = g.caption;
+        lb.classList.remove("hidden"); lb.classList.add("flex");
+      }));
+      document.getElementById("lightbox-close").addEventListener("click", () => { lb.classList.add("hidden"); lb.classList.remove("flex"); });
+      lb.addEventListener("click", (e) => { if (e.target === lb) { lb.classList.add("hidden"); lb.classList.remove("flex"); } });
+
+      const TESTS = [
+        { name: "Verified Clinic Patient", role: "Bhupati Nagar, Madha Khali", treatment: "Dental Consultation", quote: "My dental consultation with Dr. Saikat was thorough, calm, and reassuring. The clinic uses modern equipment and the patient-friendly service made the entire experience completely comfortable.", date: "Google Review · 5.0 ★" },
+        { name: "Aesthetic Care Patient", role: "Madha Khali", treatment: "Aesthetic Centre & Smile Care", quote: "Very clean clinic equipped with modern dental instruments. Dr. Saikat patiently explained every step before starting, which removed all my nervousness.", date: "Google Review · 5.0 ★" },
+        { name: "Restorative Care Patient", role: "Bhupati Nagar", treatment: "Patient-Friendly Treatment", quote: "Truly patient-friendly service from arrival to follow-up. Everything is well organized, hygienic, and handled with genuine care and professionalism.", date: "Google Review · 5.0 ★" },
+        { name: "Family Dental Visit", role: "Bhupati Nagar, Madha Khali", treatment: "Multi-Speciality Dental Care", quote: "Highly recommended multi-speciality dental clinic. Modern equipment, gentle treatment, and honest consultation—deserves every bit of its 5-star rating.", date: "Google Review · 5.0 ★" }
+      ];
+      let activeTest = 0;
+      const tSelBox = document.getElementById("testimonial-selectors"), tSlide = document.getElementById("testimonial-slide");
+      function setTest(i) {
+        activeTest = i;
+        tSelBox.innerHTML = TESTS.map((x, idx) => `<button type="button" data-ti="${idx}" class="w-full border p-4 text-left transition-all ${idx === activeTest ? "border-gold bg-obsidian" : "border-ivory/10 bg-obsidian/40 hover:border-gold/40"}"><div class="flex items-center justify-between"><p class="font-serif text-lg text-ivory">${x.treatment}</p><span class="text-[10px] text-gold">5.0 ★</span></div><p class="mt-1 text-xs text-ivory/55">${x.name} · ${x.role}</p></button>`).join("");
+        tSelBox.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => setTest(parseInt(b.dataset.ti, 10))));
+        tSlide.classList.add("fade-swap-out");
+        setTimeout(() => {
+          const t = TESTS[i];
+          document.getElementById("testimonial-quote").innerHTML = `&ldquo;${t.quote}&rdquo;`;
+          document.getElementById("testimonial-name").textContent = t.name;
+          document.getElementById("testimonial-role").textContent = t.role;
+          document.getElementById("testimonial-treatment").textContent = t.treatment;
+          document.getElementById("testimonial-date").textContent = t.date;
+          tSlide.classList.remove("fade-swap-out");
+        }, 180);
+      }
+      document.getElementById("testimonial-prev").addEventListener("click", () => setTest(activeTest === 0 ? TESTS.length - 1 : activeTest - 1));
+      document.getElementById("testimonial-next").addEventListener("click", () => setTest(activeTest === TESTS.length - 1 ? 0 : activeTest + 1));
+      setTest(0);
+
+      const WA_NUM = "917872136316";
+      const form = document.getElementById("appointment-form"), confirmBox = document.getElementById("appointment-confirmation"), formErr = document.getElementById("form-error");
+      const nameIn = document.getElementById("patient-name"), phoneIn = document.getElementById("patient-phone"), emailIn = document.getElementById("patient-email"), slotIn = document.getElementById("preferred-slot"), notesIn = document.getElementById("clinical-notes");
+      const waDirect = document.getElementById("whatsapp-direct-link"), waConfirm = document.getElementById("confirm-whatsapp-btn"), subBtn = document.getElementById("submit-appointment-btn"), subTxt = document.getElementById("submit-btn-text");
+
+      function buildWa(ref) {
+        const msg = ["Hello Dr Saikat's Multi-Speciality Dental Clinic,", "I would like to book a dental consultation.", "", ref ? `• Ref: ${ref}` : "", `• Name: ${nameIn.value.trim() || "Not provided"}`, `• Phone: ${phoneIn.value.trim() || "Not provided"}`, `• Service: ${tSelect.value}`, `• Date: ${dateInput.value || "Flexible"}`, `• Time: ${slotIn.value}`, notesIn.value.trim() ? `• Notes: ${notesIn.value.trim()}` : ""].filter(Boolean).join("\n");
+        return `https://wa.me/${WA_NUM}?text=${encodeURIComponent(msg)}`;
+      }
+      function updateWhatsAppLinks(ref) { const url = buildWa(ref); waDirect.href = url; waConfirm.href = url; }
+      [nameIn, phoneIn, emailIn, tSelect, dateInput, slotIn, notesIn].forEach((el) => { el.addEventListener("input", () => updateWhatsAppLinks()); el.addEventListener("change", () => updateWhatsAppLinks()); });
+      updateWhatsAppLinks();
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault(); formErr.classList.add("hidden");
+        const patient_name = nameIn.value.trim(), phone = phoneIn.value.trim(), email = emailIn.value.trim(), treatment = tSelect.value, preferred_date = dateInput.value, time_slot = slotIn.value, notes = notesIn.value.trim();
+        if (!patient_name || !phone || !preferred_date) { formErr.textContent = "Please provide your name, phone number, and preferred date."; formErr.classList.remove("hidden"); return; }
+        const ref = `DS-${Math.floor(100000 + Math.random() * 900000)}`;
+        subBtn.disabled = true; subTxt.textContent = "Saving Appointment...";
+        try {
+          if (!supabaseClient) throw new Error("Supabase SDK failed to load.");
+          const { error } = await supabaseClient.from("appointments").insert([{ booking_ref: ref, patient_name, phone, email: email || null, treatment, preferred_date, time_slot, notes: notes || null, status: "pending" }]);
+          if (error) throw error;
+          document.getElementById("confirm-ref").textContent = `Appointment Saved · Ref ${ref}`;
+          document.getElementById("confirm-heading").textContent = `Thank You, ${patient_name}.`;
+          document.getElementById("confirm-summary").innerHTML = `Your booking for <strong class="text-ivory">${esc(treatment)}</strong> on <strong class="text-ivory">${esc(preferred_date)}</strong> (${esc(time_slot)}) has been saved. Our clinic desk will contact you on ${esc(phone)}.`;
+          updateWhatsAppLinks(ref);
+          form.classList.add("hidden"); confirmBox.classList.remove("hidden"); confirmBox.classList.add("flex");
+        } catch (err) {
+          formErr.textContent = "Could not save (" + (err.message || "error") + "). Please use Book via WhatsApp.";
+          formErr.classList.remove("hidden");
+        } finally { subBtn.disabled = false; subTxt.textContent = "Request Appointment"; }
+      });
+      document.getElementById("book-another-btn").addEventListener("click", () => { form.reset(); updateWhatsAppLinks(); confirmBox.classList.add("hidden"); confirmBox.classList.remove("flex"); form.classList.remove("hidden"); });
+
+      const portalModal = document.getElementById("doctor-portal-modal"), loginView = document.getElementById("doctor-login-view"), dashView = document.getElementById("doctor-dashboard-view");
+      const loginForm = document.getElementById("doctor-login-form"), loginErr = document.getElementById("doctor-login-error");
+      const docEmailIn = document.getElementById("doctor-email"), docPassIn = document.getElementById("doctor-password");
+      const docLoginBtn = document.getElementById("doctor-login-submit"), docLoginTxt = document.getElementById("doctor-login-btn-text");
+      const docLoggedEmail = document.getElementById("doctor-logged-email"), listContainer = document.getElementById("appointments-list-container");
+      const countEl = document.getElementById("appointments-count"), searchIn = document.getElementById("appointment-search"), statusFilter = document.getElementById("appointment-status-filter"), dashFeedback = document.getElementById("dashboard-feedback");
+      let allAppointments = [];
+
+      function updatePortalLabels(user) { document.querySelectorAll(".doctor-portal-label").forEach((el) => { el.textContent = user ? "Doctor Dashboard" : "Doctor Login"; }); }
+      async function openDoctorPortal() {
+        closeMobileMenu(); portalModal.classList.remove("hidden"); portalModal.classList.add("flex");
+        if (!supabaseClient) return;
+        const { data } = await supabaseClient.auth.getSession();
+        if (data?.session?.user) showDashboard(data.session.user); else showLogin();
+      }
+      function closeDoctorPortal() { portalModal.classList.add("hidden"); portalModal.classList.remove("flex"); }
+      function showLogin() { updatePortalLabels(null); dashView.classList.add("hidden"); dashView.classList.remove("flex"); loginView.classList.remove("hidden"); }
+      function showDashboard(user) { updatePortalLabels(user); docLoggedEmail.textContent = user.email || "Doctor"; loginView.classList.add("hidden"); dashView.classList.remove("hidden"); dashView.classList.add("flex"); fetchAppointments(); }
+
+      document.querySelectorAll("[data-open-doctor-portal]").forEach((btn) => btn.addEventListener("click", openDoctorPortal));
+      document.getElementById("close-doctor-portal").addEventListener("click", closeDoctorPortal);
+      portalModal.addEventListener("click", (e) => { if (e.target === portalModal) closeDoctorPortal(); });
+      document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeDoctorPortal(); });
+      document.getElementById("toggle-doctor-password").addEventListener("click", () => { docPassIn.type = docPassIn.type === "password" ? "text" : "password"; });
+
+      loginForm.addEventListener("submit", async (e) => {
+        e.preventDefault(); loginErr.classList.add("hidden"); docLoginBtn.disabled = true; docLoginTxt.textContent = "Signing In...";
+        try {
+          if (!supabaseClient) throw new Error("Supabase not loaded.");
+          const { data, error } = await supabaseClient.auth.signInWithPassword({ email: docEmailIn.value.trim(), password: docPassIn.value });
+          if (error) throw error;
+          docPassIn.value = ""; showDashboard(data.user);
+        } catch (err) {
+          loginErr.textContent = err.message || "Invalid email or password."; loginErr.classList.remove("hidden");
+        } finally { docLoginBtn.disabled = false; docLoginTxt.textContent = "Sign In to View Bookings"; }
+      });
+
+      document.getElementById("doctor-logout-btn").addEventListener("click", async () => { if (supabaseClient) await supabaseClient.auth.signOut(); allAppointments = []; showLogin(); });
+
+      async function fetchAppointments() {
+        dashFeedback.classList.add("hidden");
+        listContainer.innerHTML = `<div class="p-10 text-center text-xs uppercase tracking-[0.18em] text-gold">Loading Patient Appointments...</div>`;
+        try {
+          const { data, error } = await supabaseClient.from("appointments").select("*").order("preferred_date", { ascending: true }).order("created_at", { ascending: false });
+          if (error) throw error;
+          allAppointments = data || []; renderAppointments();
+        } catch (err) {
+          listContainer.innerHTML = ""; dashFeedback.textContent = "Failed to load appointments: " + (err.message || "Check SQL permissions."); dashFeedback.classList.remove("hidden");
+        }
+      }
+
+      function renderAppointments() {
+        const q = searchIn.value.trim().toLowerCase(), st = statusFilter.value;
+        const filtered = allAppointments.filter((r) => (st === "all" || (r.status || "pending") === st) && (!q || (r.patient_name || "").toLowerCase().includes(q) || (r.phone || "").toLowerCase().includes(q) || (r.booking_ref || "").toLowerCase().includes(q) || (r.treatment || "").toLowerCase().includes(q)));
+        countEl.textContent = filtered.length;
+        if (!filtered.length) { listContainer.innerHTML = `<div class="p-10 text-center text-sm text-ivory/55">No appointments found.</div>`; return; }
+        listContainer.innerHTML = `<div class="divide-y divide-ivory/10">${filtered.map((row) => {
+          const status = row.status || "pending", cleanPhone = (row.phone || "").replace(/[^0-9+]/g, ""), waPhone = cleanPhone.replace(/^\+/, "");
+          return `<div class="flex flex-col justify-between gap-4 p-5 sm:p-6 lg:flex-row lg:items-center hover:bg-charcoal/60 transition-colors">
+            <div class="space-y-2">
+              <div class="flex flex-wrap items-center gap-3"><span class="border border-gold/40 bg-gold/10 px-2.5 py-0.5 text-[10px] uppercase tracking-widest text-gold">${esc(row.booking_ref || "BOOKING")}</span><h3 class="font-serif text-2xl text-ivory">${esc(row.patient_name)}</h3></div>
+              <div class="flex flex-wrap items-center gap-x-6 gap-y-1.5 text-xs text-ivory/80">
+                <a href="tel:${esc(cleanPhone)}" class="inline-flex items-center gap-1.5 text-gold hover:underline"><span>&#9742; ${esc(row.phone)}</span></a>
+                <span>&#128197; ${esc(row.preferred_date)}</span><span>&#9200; ${esc(row.time_slot)}</span><span class="text-ivory/65">${esc(row.treatment)}</span>
+              </div>
+              ${row.notes ? `<p class="text-xs font-light text-ivory/60">Notes: ${esc(row.notes)}</p>` : ""}
+              ${row.email ? `<p class="text-[11px] text-ivory/45">Email: ${esc(row.email)}</p>` : ""}
+            </div>
+            <div class="flex flex-wrap items-center gap-2.5 shrink-0">
+              <select data-status-id="${esc(row.id)}" class="appt-status-select border border-ivory/20 bg-charcoal px-3 py-2 text-xs uppercase tracking-wider text-ivory focus:border-gold focus:outline-none">
+                <option value="pending" ${status === "pending" ? "selected" : ""}>Pending</option>
+                <option value="confirmed" ${status === "confirmed" ? "selected" : ""}>Confirmed</option>
+                <option value="completed" ${status === "completed" ? "selected" : ""}>Completed</option>
+              </select>
+              <a href="tel:${esc(cleanPhone)}" class="border border-ivory/25 px-3 py-2 text-xs uppercase tracking-wider text-ivory hover:border-gold hover:text-gold">Call</a>
+              <a href="https://wa.me/${esc(waPhone)}" target="_blank" rel="noopener noreferrer" class="border border-gold/40 px-3 py-2 text-xs uppercase tracking-wider text-gold hover:bg-gold hover:text-obsidian">WhatsApp</a>
+            </div>
+          </div>`;
+        }).join("")}</div>`;
+        listContainer.querySelectorAll(".appt-status-select").forEach((sel) => sel.addEventListener("change", async () => {
+          const id = sel.dataset.statusId, newStatus = sel.value;
+          const { error } = await supabaseClient.from("appointments").update({ status: newStatus }).eq("id", id);
+          if (error) { dashFeedback.textContent = "Could not update status: " + error.message; dashFeedback.classList.remove("hidden"); }
+          else { const item = allAppointments.find((a) => String(a.id) === String(id)); if (item) item.status = newStatus; }
+        }));
+      }
+
+      document.getElementById("refresh-appointments-btn").addEventListener("click", fetchAppointments);
+      searchIn.addEventListener("input", renderAppointments);
+      statusFilter.addEventListener("change", renderAppointments);
+
+      if (window.lucide) lucide.createIcons();
+      if (supabaseClient) supabaseClient.auth.getSession().then(({ data }) => updatePortalLabels(data?.session?.user || null));
+    });
+  </script>
+</body>
+</html>
